@@ -1,0 +1,298 @@
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation */ 
+
+#navbar{
+   display: flex;
+   border-radius: 20px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#navbar ul li a{
+    color: rgb(0, 0, 0);
+    padding: 4px 130px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul li a:hover{
+    cursor:  pointer;
+}
+
+/* Discount Note  */
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 8px 0px;
+    margin: 30px 260px;
+}
+
+p:hover{
+    cursor: pointer;
+    color: rgb(17, 153, 87);
+}
+
+/* Menu section */
+
+h2{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding: 5px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+#items{
+    padding: 0px 235px;
+}
+
+#menu{
+  display: flex;
+  padding: 19px 0px;
+  margin: 37px 90px;
+  align-items: center;
+  justify-content: center;
+  height: 285px;
+  width: 94%;
+}
+
+#menu::before{
+    content: "";
+    background: url('../foodbg.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 50%;
+    width: 94%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+h3{
+    padding: 0px 60px;
+    display: inline;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#items ul li{
+    padding: 2px 2px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem; 
+    font-weight: 600;
+}
+
+#nonveg{
+    height: 285px;
+    width: 40%;
+}
+
+#nonveg ul li{
+    padding: 2px 2px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem; 
+    font-weight: 600;
+}
+
+#drinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#drinks::before{
+    content: "";
+    background: url('../foodbg.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 35%;
+    width: 94%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#drinks ul li{
+    padding: 2px 2px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem; 
+    font-weight: 600;
+}
+
+/* Your Orders Section  */
+
+h5{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+#order img{
+    height: 245px;
+    padding: 0px 0px;
+    margin: 0px 63px;
+    background: none;
+}
+
+.yorders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0px;
+    margin: 9px 0px;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 12px 12px;
+    margin: 8px 140px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+ 
+/* Contact Us Section */
+
+.cous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cous label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    padding: 2px 11px;
+}
+
+.cous ::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.cous input{
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 8px 8px;
+   margin: 10px 9px;
+   width: 100%;
+}
+
+.cous input:hover{
+    border: 3px solid black;
+}
+
+.note2 h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Chat box  */
+
+.chat{
+     display: flex;
+     flex-direction: row-reverse;
+     padding-bottom: 20px;
+}
+
+.chat img{
+    height: 70px;
+    background-color: white;
+    cursor: pointer;
+    padding: 6px 0px;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.chat h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* Footer Section  */
+
+#foot{
+    background-color: black;
+    height: 345px;
+    width: 100%;
+}
+
+.pt{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.pt2{
+    color: white;
+    padding: 0px 13px;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+#foot h6{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+}
+
+.follow ul{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+.follow ul li a{
+    text-decoration: none;
+    color: blue;
+}
